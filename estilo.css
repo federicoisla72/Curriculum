@@ -1,0 +1,13 @@
+body{
+    background-color: yellowgreen;
+}
+.primerTit{
+    color: tomato;
+    width: 200px;
+    height: 200px;
+    border: solid aqua 2px;
+}
+
+.segundoTit{
+    color: red;
+}

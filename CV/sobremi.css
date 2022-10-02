@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EBECF0;
+}
+
+.seccion-general{
+    width: 210mm;
+    height: 350mm;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+.titulo{
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440;
+    color: rgb(255, 235, 120);
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.parte-general{
+    padding: 2.8rem;
+}
+
+.parte-general .encabezado{
+    font-family: 'Open Sans', sans-serif; 
+    color: #4D4D4F;
+    margin-bottom: 2.2rem;
+}
+
+.parte-general .encabezado .apellido{
+    font-size: 4em;
+    font-weight: 400;
+    margin-top: -1rem;
+}
+
+.parte-general .encabezado .posicion{
+    letter-spacing: 0.3rem;
+    margin-top: -0.5rem;
+    font-size: 1.1rem;
+}
+
+.menu{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav{
+    float: right;
+}
+  
+nav ul li{
+    list-style: none;
+    margin-left: 65px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+  
+nav ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem; 
+    text-decoration: none;
+    color: rgb(120, 120, 120);
+    font-weight: bold;
+}
+
+.trabajo-caja{
+    margin-top: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.trabajo-caja .trabajo:not(:last-child){
+    margin-bottom: 2rem;
+}
+.trabajo-caja .trabajo .fecha-trabajo{
+    display: flex;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.trabajo-caja .trabajo .nombre-empresa{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+}
+.trabajo-caja .trabajo .texto-trabajo{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+.referencia-caja .referencias{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4F;
+}
+
+li{
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}

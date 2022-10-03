@@ -15,6 +15,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
 }
+
 .seccion-general .parte-izquierda{
     width: 40%;
     height: 100%;
@@ -126,14 +127,17 @@ body{
 .parte-derecha{
     padding: 2.8rem;
 }
+
 .parte-derecha .encabezado{
     font-family: 'Open Sans', sans-serif; 
     color: #4D4D4F;
     margin-bottom: 2.2rem;
 }
+
 .parte-derecha .encabezado .nombre{
     font-size: 4rem;
 }
+
 .parte-derecha .encabezado .apellido{
     font-size: 4em;
     font-weight: 400;
@@ -203,4 +207,67 @@ body{
 }
 .texto-derecha{
     text-align: left;
+}
+
+@media (max-width: 576px){
+    .seccion-general .parte-izquierda{
+        width: 20%;
+        height: 100%;
+        background-color: #F4F4F4;
+        padding: 0.20rem;
+    }
+
+    .titulo{
+        font-size: 3mm;
+    }
+
+    .contacto-caja{
+        margin-bottom: 2.1rem;
+        font-size: 0.3em;
+    }
+
+    .educación-caja{
+        margin-bottom: 2.0rem;
+        font-family: 'Lato', sans-serif;
+        font-size: 3mm;
+    }
+    
+    .educación-caja .curso{
+        margin-bottom: 1rem;
+        color: #414042;
+        font-size: 3mm;
+    }
+    
+    .educación-caja .educación-titulo{
+        font-size: 0.80rem;
+        font-weight: 800;
+        margin-bottom: .3rem;
+    }
+    
+    .Habilidades-caja .habilidad{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.6rem;
+        font-family: 'Lato', sans-serif;
+    }
+    .Habilidades-caja .habilidad .habilidad-derecha .barrita-porcentaje{
+        background-color: #BBBBBB;
+        height: 0.4rem;
+        width: 4rem;
+        border-radius: 0.4rem;
+    }
+    .Habilidades-caja .habilidad .habilidad-derecha .barrita{
+        background-color: #3D3D3D;
+        height: 100%;
+        border-radius: inherit;
+    }
+
+    .seccion-general .parte-derecha{
+        width: 43%;
+        height: 100%;
+        background-color: #F4F4F4;
+        padding: 0.20rem;
+    }
+
 }

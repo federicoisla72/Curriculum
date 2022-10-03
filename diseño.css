@@ -264,10 +264,10 @@ body{
     }
 
     .seccion-general .parte-derecha{
-        width: 40%;
-        height: 100%;
+        width: 20em;
+        height: 1em;
         background-color: #F4F4F4;
-        padding: 0.20rem;
+        padding: 0.1rem;
     }
 
 }
